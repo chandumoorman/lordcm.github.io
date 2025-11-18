@@ -1,0 +1,91 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0d0f17;
+    color: #ffffff;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1a1f33, #0d0f17);
+    border-bottom: 2px solid #27304a;
+}
+
+header .name {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #4db8ff;
+}
+
+header .role {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #d0d0d0;
+}
+
+/* Section Styling */
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background: #141826;
+    border-radius: 10px;
+    border: 1px solid #2a3350;
+    transition: 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.section h2 {
+    color: #4db8ff;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+/* Skills List */
+.skills ul {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.skills li {
+    padding: 8px 0;
+    border-bottom: 1px solid #2a3350;
+    color: #dcdcdc;
+}
+
+.skills li:last-child {
+    border-bottom: none;
+}
+
+/* Contact Section */
+.contact p {
+    margin: 8px 0;
+    color: #dcdcdc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #10131d;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 2px solid #27304a;
+    color: #777;
+}
